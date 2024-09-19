@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhopii - Mês do Consumidor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra superior com logo e botão "Sair" -->
+    <section class="top-bar">
+        <section class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Xhopii Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Xhopii
+            </a>
+            <a href="#" onclick="sair()" class="btn btn-outline-light">Sair</a>
+        </section>
+    </section>
+
+    <!-- Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <section class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cadastro Cliente</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cadastro Funcionário</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cadastro Produto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Ver Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Ver Funcionários</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Ver Produtos</a></li>
+                    </ul>
+                </section>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Produtos -->
+    <section id="produtos">
+        <h2>PRODUTOS</h2>
+        <section class="divider-container">
+            <section class="divider"></section>
+        </section>
+        <section class="container">
+            <section class="row">
+                <!-- Card 1 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 1">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="container1">
+                                    <section class="coluna1">Fabricante:</section>
+                                    <section class="coluna1">Eletiva Uniformes.</section>
+                                </section>
+                                <section class="container2">
+                                    <section class="coluna2">Descrição:</section>
+                                    <section class="coluna2">Uma Camisa ideal para programar por mais de 12 horas.</section>
+                                </section>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 2 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 2">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 3 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 3">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 4 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 4">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 5 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 5">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 6 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 6">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 7 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 7">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <!-- Card 8 -->
+                <section class="col-md-2 col-sm-4">
+                    <a href="#" class="card-link">
+                        <section class="card">
+                            <img src="img/produto1.png" class="card-img-top" alt="Produto 8">
+                            <section class="card-body">
+                                <h5 class="card-title">Camisa Desenvolvedor Front-End CSS</h5>
+                                <section class="card-footer">
+                                    <span class="price">R$ 59,90</span>
+                                    <span class="availability">171 disponíveis</span>
+                                </section>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section class="opcoes">
+            <section class="atendimento">
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <ul>
+                    <li><a href="#">Central de ajuda</a></li>
+                    <li><a href="#">Como Comprar</a></li>
+                    <li><a href="#">Métodos de pagamento</a></li>
+                    <li><a href="#">Garantia Xhopii</a></li>
+                    <li><a href="#">Devolução e reembolso</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#">Ouvidoria</a></li>
+                </ul>
+            </section>
+            <section class="sobre">
+                <h4>SOBRE A XHOPII</h4>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Políticas Xhopii</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Programa de aliados Xhopii</a></li>
+                    <li><a href="#">Seja um entregador Xhopii</a></li>
+                    <li><a href="#">Ofertas relâmpago</a></li>
+                    <li><a href="#">Xhopii blog</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                </ul>
+            </section>
+            <section class="pagamentos">
+                <h4>PAGAMENTO</h4>
+                <ul>
+                    <li class="boleto"><img src="./img-pagamento/pgBoleto.png" alt="Imagem Boleto"/></li>
+                    <li class="pix"><img src="./img-pagamento/pgPix.png" alt="Imagem Pix"/></li>
+                    <li class="amex"><img src="./img-pagamento/pgAmex.png" alt="Imagem Cartão Amex"/></li>
+                    <li class="elo"><img src="./img-pagamento/pgElo.png" alt="Imagem Cartão Elo"/></li>
+                    <li class="hiper"><img src="./img-pagamento/pgHiper.png" alt="Imagem Cartão Hipercard"/></li>
+                    <li class="master"><img src="./img-pagamento/pgMaster.png" alt="Imagem Cartão Mastercard"/></li>
+                    <li class="visa"><img src="./img-pagamento/pgVisa.png" alt="Imagem Cartão Visa"/></li>
+                </ul>
+            </section>
+            <section class="siga">
+                <h4>SIGA-NOS</h4>
+                <section class="social-icons">
+                    <a href="#"><img src="./img-siga/insta-logo.png" alt="Imagem logo Instagram">Instagram</a>
+                    <a href="#"><img src="./img-siga/x-logo.png" alt="Imagem logo X">X (Twitter)</a>
+                    <a href="#"><img src="./img-siga/face-logo.png" alt="Imagem logo Facebook">Facebook</a>
+                    <a href="#"><img src="./img-siga/youtube-logo.png" alt="Imagem logo Youtube">Youtube</a>
+                    <a href="#"><img src="./img-siga/linkedin-logo.png" alt="Imagem logo Linkedin">Linkedin</a>
+                </section>
+            </section>
+            <section class="qrcode">
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <ul>
+                    <li><img src="./img-app/qr-code.png" alt="QR code"/></li>
+                    <li><img src="./img-app/googleApple.jpg" alt="Google play e Apple store"/></li>
+                    
+                </ul>
+            </section>
+        </section>
+        <section class="direito">
+            © 2024 Xhopii. Todos os direitos acadêmicos reservados
+        </section>
+    </footer>
+
+</body>
+</html>
